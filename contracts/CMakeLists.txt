@@ -3,6 +3,7 @@ cmake_minimum_required( VERSION 3.5 )
 project(contracts)
 
 set(EOSIO_WASM_OLD_BEHAVIOR "Off")
+set("eosio.cdt_DIR" "/usr/local/lib/cmake/eosio.cdt/")
 find_package(eosio.cdt)
 
 add_subdirectory(eosio.bios)
